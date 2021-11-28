@@ -7,3 +7,81 @@ header .nav-item:hover .nav-link,
 header .nav-item.active .nav-link{
     border-color: black;
 }
+
+.team-card{
+    transition: 0.2s ease;
+    margin: 15px auto;
+}
+.team-card .img .img-hold{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 20px auto 5px auto;
+    background: gray;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.team-card .card-body p{
+    font-size: small;
+}
+.team-card span.logo-hold{
+    transition: 0.2s ease;
+    border: 1px solid black;
+    border-color: gray;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.team-card span.logo-hold a{
+    color: black !important;
+}
+.team-card:hover{
+    background: #0F0A33;
+    color: white;
+}
+.team-card:hover .logo-hold a{
+    color: white !important;
+}
+.team-card .logo-hold:hover {
+    background: white;
+    cursor: pointer;
+}
+.team-card .logo-hold:hover a{
+    color: black !important;
+}
+
+.team-card-add{
+    margin: 15px auto;
+    background: #fafafa;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.team-card-add .img .img-hold{
+    margin: 20px auto 5px auto;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px dashed #CCCCCC;
+    display: grid;
+    place-items: center;
+}
+.team-card-add{
+    color: #fafafa;
+}
+.team-card-add p{
+    font-size: smaller;
+}
+.team-card-add button.btn{
+    background: #00D0B0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.feature-card .img{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 20px auto;
+}
