@@ -10,6 +10,7 @@ header{
 header .nav-link{
     border-bottom: 2px solid transparent;
     transition: 0.3s ease;
+    font-weight: 500;
 }
 header .nav-item:hover .nav-link,
 header .nav-item.active .nav-link{
