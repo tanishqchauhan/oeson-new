@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Oeson</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./contact.css">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/95105048e2.js" crossorigin="anonymous"></script>
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="./index.html">
+                <span style="font-size: x-large; font-weight: 700;">Oeson</span>
+            </a>
+            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./career.html">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="d-flex" style="max-width: 100vw; overflow-x: hidden;">
+        <div class="col-1" style="background: #013966;"></div>
+        <div class="col-11" style="background: #024C87;">
+            <div class="d-flex align-items-center" style="height: 100vh;">
+                <div class="d-flex align-items-center justify-content-around w-100">
+                    <div class="col-lg-3 no-small">
+                        <div class="d-flex justify-content-center" style="gap: 20px;">
+                            <div class="col" style="border-radius: 15px; overflow: hidden; padding: 0;">
+                                <img src="https://ik.imagekit.io/64grotxkwkd/oseon/slice_left.jpeg" alt="slice" width="100%">
+                            </div>
+                            <div class="col" style="border-radius: 15px; overflow: hidden; padding: 0;">
+                                <img src="https://ik.imagekit.io/64grotxkwkd/oseon/slice_right.jpeg" alt="slice" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-12 px-0">
+                        <form id="contact-form" class="text-white mx-auto" style="max-width: 700px;">
+                            <div class="col">
+                                <h1 style="font-weight: bold;">Contact Us</h1>
+                            </div>
+                            <br>
+                            <div class="d-flex">
+                                <div class="col">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" class="form-control" name="fistName">
+                                </div>
+                                <div class="col">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" class="form-control" name="lastName">
+                                </div>
+                            </div>
+                            <div class="col py-1">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" class="form-control">
+                            </div>
+                            <div class="col py-1">
+                                <label for="mobile">Phone Number</label>
+                                <input type="tel" name="mobile" class="form-control">
+                            </div>
+                            <div class="col py-1">
+                                <label for="mobile">Comment or Message</label>
+                                <textarea rows="8" name="commet" class="form-control"></textarea>
+                            </div>
+                            <div class="col pt-2">
+                                <button class="btn btn-light" type="submit">SEND MESSAGE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="pt-3 w-100">
+                <div class="w-100 d-flex flex-wrap justify-content-around align-items-center">
+                    <div class="col-lg-4 col-12 col-md-6 text-white">
+                        <h4>Get in Touch</h4>
+                        <br>
+                        <h6>Phone</h6>
+                        <div class="col">
+                            <p>
+                                Due to COVID-19 , our full team are working remotly, 
+                                Please email us and requests a callback.
+                            </p>
+                        </div>
+                        <h6>Email</h6>
+                        <div class="col">
+                            <p>
+                                info.oeson@gmail.com
+                                <br>
+                                team.oeson@gmail.com
+                            </p>
+                        </div>
+                        <h6>Office Address</h6>
+                        <div class="col">
+                            <p>
+                                52/7 Chawni, Indore, India
+                            </p>
+                        </div>
+                        <h6>Time</h6>
+                        <div class="col">
+                            <p>
+                                9:00 AM-7:00 PM
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 col-md-6">
+                        <!--<img src="https://ik.imagekit.io/64grotxkwkd/oseon/Group_217.png" alt="contact" width="130%" style="position: absolute;">-->
+                        <div  style="  width: 400px; height: 400px; position: relative;"> 
+                             <img src="https://ik.imagekit.io/64grotxkwkd/oseon/Group_217.png" alt="contact" width="130%" style="position: absolute;">                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.9617997481428!2d75.87983421439775!3d22.69246593428018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcdc9bc0b85d%3A0xe3a635799e9396f0!2s52%2C%207%2C%20Navlakha%20Rd%2C%20Shiv%20Moti%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452001!5e0!3m2!1sen!2sin!4v1636442445668!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+
+    <footer>
+        <div class="container">
+            <div class="col">
+                <span style="font-size: x-large; font-weight: 700; font-family: 'Poppins', sans-serif;">Oeson</span>
+                <br>
+            </div>
+        </div>
+        <div class="container d-flex flex-wrap">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <br>
+                <div class="footer-section" >
+                    <h5 class="header">Reach Us</h5>
+                    <div class="py-1">
+                        <i class="fas fa-map-marker-alt"></i> <i class="px-1"></i>
+                        52/7, Chawni, Indore, Madhya Pradesh, 452001
+                    </div class="py-1">
+                    <div class="py-1">
+                        <a href="mailto:info.oeson@gmail.com">
+                            <i class="fas fa-envelope"></i> <i class="px-1"></i>
+                            info.oeson@gmail.com
+                        </a>
+                    </div class="py-1">
+                    <div class="py-1">
+                        <a href="tel:+918349676079">
+                            <i class="fas fa-phone-alt"></i> <i class="px-1"></i>
+                            +91-8349676079
+                        </a>
+                    </div class="py-1">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 sitemap">
+                <br>
+                <div class="footer-section">
+                    <h5 class="header">Sitemap</h5>
+                    <div class="d-flex footer-nav">
+                        <h6 class="nav-item">
+                            <a href="./index.html">Home</a>
+                        </h6>
+                        <h6 class="nav-item">
+                            <a href="./about.html">About Us</a>
+                        </h6>
+                        <h6 class="nav-item">
+                            <a href="./services.html">Services</a>
+                        </h6>
+                        <h6 class="nav-item">
+                            <a href="./contact.html">Contact Us</a>
+                        </h6>
+                        <h6 class="nav-item">
+                            <a href="./blog.html">Blog</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <br>
+                <div class="footer-section">
+                    <h5 class="header">Want our IT consultancy tips ?</h5>
+                    <h6>Our IT Consulting firm delivers variety of custom business technology straitegies.</h6>
+                    <div class="d-flex">
+                        <input type="email" class="form-control" placeholder="Enter Your Email">
+                        <button class="btn text-white" style="min-width: fit-content; background: #024C87;">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <br>
+                <div class="footer-section">
+                    <h5 class="header">Connect with Us</h5>
+                    <div class="d-flex justify-content-between">
+                        <a href="https://twitter.com/OesonIndia">
+                            <div class="social-logo">
+                                <img src="https://ik.imagekit.io/64grotxkwkd/oseon/twitter.png" alt="twitter logo" width="100%">
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/OESON-113899197753496">
+                            <div class="social-logo">
+                                <img src="https://ik.imagekit.io/64grotxkwkd/oseon/facebook.png" alt="facebook logo" width="100%">
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/eternity-incorporations/">
+                            <div class="social-logo">
+                                <img src="https://ik.imagekit.io/64grotxkwkd/oseon/linkedin.png" alt="linkedin logo" width="100%">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social-logo">
+                                <img src="https://ik.imagekit.io/64grotxkwkd/oseon/instagram.png" alt="instagram logo" width="100%">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <br>
+            <hr class="bg-white">
+            <br>
+            <p style="font-size: xx-small;">By continuing past this page you agree to our Terms , Cookie policy and Privacy policy . All trademarks are properties of their respective owners. 2020-2021 © Foodbychoice Pvt. Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

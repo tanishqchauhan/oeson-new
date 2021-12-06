@@ -1,0 +1,70 @@
+header{
+    width: 100%;
+    z-index: 1;
+    color: white;
+    background: #024C87;
+}
+
+#blog-pics {
+    height: 300px;
+    overflow-x: scroll;
+}
+#blog-pics::-webkit-scrollbar{
+    display: none;
+}
+
+#blog-pics .hold{
+    display: flex;
+    width: fit-content;
+    height: 100%;
+}
+#blog-pics .hold .image{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+@media (max-width: 575.98px) {
+    #career-sec{
+        height: fit-content;
+        position: relative;
+        padding-top: 2.5rem;
+    }
+   
+    #blog-pics .hold .image{
+        width: 60vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width : 991.98px) {
+    #career-sec{
+        height: fit-content;
+        position: relative;
+        padding-top: 2.5rem;
+    }
+    #blog-pics .hold .image{
+        width: 45vw;
+    }
+}
+
+@media (min-width: 992px){
+    #career-sec{
+        height: 100vh;
+        position: relative;
+    }
+    #career-sec .no-small{
+        position: absolute;
+        width: 100%;
+        top: -2rem;
+    }
+    #blog-pics .hold .image{
+        width: 35vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    #blog-pics .hold .image{
+        width: 20vw;
+    }
+}

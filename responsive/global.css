@@ -1,0 +1,151 @@
+header{
+    font-family: 'Poppins', sans-serif;
+}
+button.navbar-toggler:active,
+button.navbar-toggler:hover,
+button.navbar-toggle{
+    border: none !important;
+    outline: none !important;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+header .nav-link{
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+header .nav-item:hover .nav-link,
+header .nav-item.active .nav-link{
+    border-color: inherit;
+}
+
+section.h100{
+    height: 100vh;
+}
+section.index-hero{
+    background-image: url('https://ik.imagekit.io/64grotxkwkd/oseon/home_hero.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+main{
+    font-family: 'Oswald', sans-serif;
+}
+
+.porel{
+    position: relative;
+}
+
+.profile-img-circle{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+footer{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    background: #013966;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.footer-section .header{
+    color: #E6B85C;
+    padding-bottom: 7px;
+}
+footer .sitemap{
+    border-left: 2px solid white;
+}
+
+footer div.social-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .no-small{
+        display: none;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .no-small{
+        display: none;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+        backdrop-filter: blur(5px);
+    }
+    header .nav-link{
+        max-width: fit-content;
+    }
+    .no-small{
+        display: none;
+    }
+    #navbarNavDropdown ul.navbar-nav{
+        justify-content: space-around;
+        width: 90%;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbarNavDropdown ul.navbar-nav{
+        justify-content: space-around;
+        width: 70%;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #navbarNavDropdown ul.navbar-nav{
+        justify-content: space-around;
+        width: 50%;
+    }
+}
+
+/* small */
+@media (max-width: 767.98px) {
+    header{
+        backdrop-filter: blur(5px);
+    }
+    header .nav-link{
+        max-width: fit-content;
+    }
+    footer div.footer-nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* big */
+@media (min-width: 768px){
+    #navbarNavDropdown{
+        justify-content: center;
+    }
+    
+    footer div.footer-nav{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px){
+    .l100{
+        min-height: 100vh;
+    }
+}

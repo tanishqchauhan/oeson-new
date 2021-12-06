@@ -1,0 +1,85 @@
+header{
+    width: 100%;
+    z-index: 1;
+    color: white;
+    background: #2C70C0;
+}
+
+.service-main{
+    height: 100vh;
+    background-image: url('https://ik.imagekit.io/64grotxkwkd/oseon/girlemployee.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+
+.testimonials .card-body a {
+    color: #007bff !important;
+}
+.testimonials .img-hold{
+    flex: 1;
+}
+.testimonials .img-hold .mx-auto{
+    max-width: 70px;
+}
+.testimonials .card-body{
+    flex: 3;
+}
+
+.start{
+	min-height: 50vh;
+	width: 100%;
+	background: url('https://ik.imagekit.io/64grotxkwkd/oseon/buildingview.png?updatedAt=1638104054586');
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+}
+.start h3{
+	font-size: 20px;
+}
+.start button{
+	color: #fff;
+	border-radius: 20px;
+	margin-top: 6px;
+	background-color: blue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.updates ul li{
+	padding: 13px;
+}
+
+@media (max-width: 575.98px) {
+    .service-main{
+        background-position: -715px center;
+    }
+    #services .d-flex .px-0 .px-0{
+        text-align: center;
+    }
+    #services .d-flex:nth-child(2n+1){
+        flex-direction: column-reverse;
+    }
+    #services .d-flex {
+        gap: 20px;
+        box-shadow: 2px 2px 10px gray;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 992px){
+    #services .d-flex:nth-child(2n) .px-0 .px-0{
+        text-align: right;
+    }
+    .service-img{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
