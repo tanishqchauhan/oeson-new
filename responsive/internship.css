@@ -84,6 +84,9 @@ header{
     padding-bottom: 10px;
     margin-right: 10px;
 }
+ol.flickity-page-dots li.dot{
+    background: lightgray;
+}
 
 #steps-accordion .card-header{
     padding-top: 0.2rem;
