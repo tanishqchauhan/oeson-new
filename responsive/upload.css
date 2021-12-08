@@ -1,0 +1,10 @@
+header{
+    background: #2C70C0;
+    color: #fff;
+}
+
+@media (min-width: 991.98px) {
+    .main{
+        height: 90vh;
+    }
+}

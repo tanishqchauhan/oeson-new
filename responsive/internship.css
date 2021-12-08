@@ -3,7 +3,43 @@ header{
     border-bottom: 4px solid #2C70C0;;
 }
 
-.inter-main-inner .btn{
+/* dfgsd */
+
+.inter-main{
+    background: #fff;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.inter-main .vert-nav{
+    color: #2C70C0;
+    height: 90vh;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: auto;
+}
+.r-90{
+    transform: rotate(90deg);
+    height: fit-content;
+    width: 100px;
+}
+.r-90:hover{
+    text-decoration: underline;
+}
+
+.inter-main .main-text{
+    position: absolute;
+    color: #000000;
+}
+
+
+
+/* sadnasjd */
+
+.inter-main .btn{
     background: #2C70C0;
     color: white;
     padding-left: 40px;
@@ -11,10 +47,7 @@ header{
     border-radius: 25px;
     transition: 0.2s ease;
 }
-.inter-main-inner .btn:hover{
-    background: #215999;
-    color: white;
-}
+
 
 .overlaps{
     width: fit-content;
@@ -120,16 +153,6 @@ ol.flickity-page-dots li.dot{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .inter-main-inner{
-        height: 80vh;
-    }    
-    .inter-main-inner .text{
-        padding: 2rem;
-    }
-    .inter-main-inner .img{
-        padding: 0;
-        height: fit-content;
-    }
     .info-list{
         padding-left: 10px;
         padding-right: 10px;
@@ -138,50 +161,66 @@ ol.flickity-page-dots li.dot{
         width: 65%;
         margin-right: 5vw;
     }
+    .inter-main .main-text{
+        top: 10vh;
+    }
+    .inter-main .hero-img{
+        position: absolute;
+        right: 0;
+        bottom: 10vh;
+    }
 }
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .inter-main-inner{
-        height: 80vh;
-    }    
-    .inter-main-inner .text{
-        padding-top: 3rem;
-        padding-left: 3rem;
-    }
-    .inter-main-inner .img{
-        padding: 0;
-        height: fit-content;
-    }
     .gallery-cell{
         width: 60%;
         margin-right: 5vw;
+    }
+    .inter-main .main-text{
+        top: 4vh;
+        left: 10%;
+        width: fit-content;
+    }
+    .inter-main .hero-img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .inter-main-inner .text{
-        padding-top: 2rem;
-        padding-left: 5rem;
-    }
-    .inter-main-inner{
-        height: 80vh;
-    }
     .gallery-cell{
         width: 55%;
         margin-right: 5vw;
+    }
+    .inter-main .main-text{
+        top: 20vh;
+    }
+    .inter-main .hero-img{
+        position: absolute;
+        right: 0;
+        bottom: 30%;
     }
 }
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+    .inter-main .hero-img{
+        position: absolute;
+        right: 10%;
+        bottom: 30%;
+    }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    
+    .inter-main .hero-img{
+        position: absolute;
+        right: 10%;
+        bottom: 30%;
+    }
 }
 
 /* small */
@@ -191,20 +230,24 @@ ol.flickity-page-dots li.dot{
 
 /* big */
 @media (min-width: 768px){
-    .inter-main{
-        height: 90vh;
-    }
     #experince-carousel::-webkit-scrollbar{
         display: none;
     }
 }
 
 @media (min-width: 992px){
-    .inter-main-inner{
-        justify-content: center;
-    }
     .gallery-cell{
         width: 35%;
         margin-right: 10vw;
+    }
+    .inter-main .main-text{
+        top: 20vh;
+        left: 10vw;
+    }
+    .inter-main{
+        height: 100vh;
+    }
+    .no-big{
+        visibility: hidden;
     }
 }

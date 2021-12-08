@@ -91,10 +91,6 @@ searchForm.onsubmit = (e) => {
     }
 }
 
-uploadBtn.onclick = () => { 
-    uploadForm.style.display = 'block'; 
-    uploadFile.click()
-}
 
 function renderJobs(jobs){
     total.innerHTML = jobs.length;
