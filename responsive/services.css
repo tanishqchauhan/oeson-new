@@ -14,18 +14,23 @@ header{
     position: relative;
 }
 
-.testimonials .card-body a {
-    color: #007bff !important;
+
+.gallery-cell {
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
 }
-.testimonials .img-hold{
-    flex: 1;
+ol.flickity-page-dots li.dot{
+    background: lightgray;
 }
-.testimonials .img-hold .mx-auto{
-    max-width: 70px;
+.gallery-cell .card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
-.testimonials .card-body{
-    flex: 3;
-}
+
+
 
 .start{
 	min-height: 50vh;
@@ -68,13 +73,56 @@ header{
         padding-top: 10px;
         border-radius: 5px;
     }
+    .gallery-cell{
+        width: 100%;
+        margin-right: 5vw;
+    }
+    .gallery-cell .card .img-hold{
+        width: 20%;
+    }
+    .gallery-cell .card .card-body{
+        width: 80%;
+    }
+    .flickity-prev-next-button{
+        background: transparent !important;
+    }
 }
 
-@media (min-width: 576px) {
-    
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gallery-cell{
+        width: 80%;
+        margin-right: 5vw;
+    }
+    .gallery-cell .card .img-hold{
+        width: 20%;
+    }
+    .gallery-cell .card .card-body{
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .gallery-cell{
+        width: 55%;
+        margin-right: 5vw;
+    }
 }
 
 @media (min-width: 992px){
+    .gallery-cell{
+        width: 35%;
+        margin-right: 10vw;
+    }
+    .gallery-cell .card .img-hold{
+        width: 20%;
+    }
+    .gallery-cell .card .img-hold .mx-auto{
+        max-width: 100px;
+        overflow: hidden;
+    }
+    .gallery-cell .card .card-body{
+        width: 80%;
+    }
     #services .d-flex:nth-child(2n) .px-0 .px-0{
         text-align: right;
     }
