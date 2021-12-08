@@ -1,6 +1,23 @@
 header{
     font-family: 'Poppins', sans-serif;
 }
+
+div.logo-img{
+    width: 12rem;
+    height: 3.7rem;
+    background-image: url('https://ik.imagekit.io/64grotxkwkd/oseon/logo_75_less.png');
+    background-size: cover;
+    background-position: center;
+}
+
+div.logo-img-blue{
+    background-image: url('https://ik.imagekit.io/64grotxkwkd/oseon/logo_blue_75less.png');
+    background-size: cover;
+    background-position: center;
+    width: 12rem;
+    height: 3.7rem;
+}
+
 button.navbar-toggler:active,
 button.navbar-toggler:hover,
 button.navbar-toggle{
@@ -147,5 +164,8 @@ footer div.social-logo{
 @media (min-width: 992px){
     .l100{
         min-height: 100vh;
+    }
+    header{
+        padding-top: 10px;
     }
 }

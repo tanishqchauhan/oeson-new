@@ -39,24 +39,6 @@ const jobs = [
         post : 1, 
         department : "Technology", 
         location : "Gurugram/Bangaluru" 
-    },
-    {
-        title : "Analyst I IT Governance",
-        post : 1,
-        department : "Technology",
-        location : "Gurugram"
-    },
-    { 
-        title : "SDE II I Site Reliability Engineering (Consumer)", 
-        post : 1, 
-        department : "Technology", 
-        location : "Gurugram/Bangaluru" 
-    },
-    {
-        title : "Analyst I IT Governance",
-        post : 1,
-        department : "Technology",
-        location : "Gurugram"
     }
 ]
 
