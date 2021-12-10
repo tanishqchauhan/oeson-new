@@ -85,6 +85,7 @@ ol.flickity-page-dots li.dot{
     }
     .flickity-prev-next-button{
         background: transparent !important;
+        margin-top: 5rem;
     }
 }
 
