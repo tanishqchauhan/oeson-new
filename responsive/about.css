@@ -1,14 +1,7 @@
 .main-img-hold{
-    position: absolute;
-}
-.about-sec{
     position: relative;
-    background: #013966;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
 }
+
 
 .team-hold{
     display: flex;
@@ -104,18 +97,15 @@
 }
 
 @media (max-width: 575.98px) {
-    .about-main{
-        position: relative;
-        height: 60vh;
-    }
     .main-img-hold{
-        z-index: 1;
-        left: 0;
         padding-left: 10px;
         padding-right: 10px;
+        height: 20vh;
     }
-    .about-sec{
-        height: 110vh;
+    .main-img-hold-support{
+        height: 20vh;
+        width: 100%;
+        background: #013966;
     }
     .stats h3{
         font-size: 23px;
@@ -135,15 +125,13 @@
 }
 
 @media (min-width: 576px) and (max-width : 991.98px) {
-    .about-main{
-        position: relative;
-        height: 65vh;
-    }
     .main-img-hold{
-        z-index: 1;
-        left: 0;
-        padding-left: 5px;
-        padding-right: 5px;
+        height: 30vh;
+    }
+    .main-img-hold-support{
+        height: 30vh;
+        width: 100%;
+        background: #013966;
     }
     .client-hold{
         justify-content: space-around;
@@ -156,16 +144,6 @@
 }
 
 @media (min-width: 992px){
-    .about-main{
-        position: relative;
-        height: 70vh;
-    }
-    .main-img-hold{
-        z-index: 1;
-        left: 0;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
     .client-hold{
         justify-content: space-between;
     }
@@ -174,6 +152,24 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .main-img-hold{
+        height: 40vh;
+    }
+    .main-img-hold-support{
+        height: 50vh;
+        width: 100%;
+        background: #013966;
+    }
+}
+
 @media (min-width: 1200px) {
-   
+    .main-img-hold{
+        height: 50vh;
+    }
+    .main-img-hold-support{
+        height: 50vh;
+        width: 100%;
+        background: #013966;
+    }
 }

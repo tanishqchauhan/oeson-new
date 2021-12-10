@@ -6,6 +6,10 @@ header{
     background: transparent;
 }
 
+main > div.col-11{
+    padding-top: 4rem;
+}
+
 #contact-form .form-control{
     background: #013C6C;
     color: white;
